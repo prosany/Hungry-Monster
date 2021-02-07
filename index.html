@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.themealdb.com/images/ico/favicon.ico" type="image/x-icon">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet preload" as="style" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" crossorigin>
+    <link rel="stylesheet preload" as="style" href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" crossorigin>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hungry Monster</title>
+</head>
+<body>
+    <header id="header">
+        <div class="box">
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+            <div class="search">
+                <div class="form">
+                    <label for="" class="input-search"><i class="fas fa-map-marker-alt"></i>Dhaka, Bangladesh</label>
+                    <input type="text" placeholder="Medium one topping pizza" id="search-input" autofocus>
+                    <button type="submit" id="search-btn"><i class="far fa-search"></i></button>
+                </div>
+            </div>
+            <div class="userBorad">
+                <ul>
+                    <li><a href="#"><i class="far fa-bookmark"></i></a></li>
+                    <li><a href="#"><i class="far fa-bell"></i></a></li>
+                    <li><a href="#">
+                            <div class="user">
+                                <img src="./static/user/user1.jpg" alt="User">
+                            </div>
+                            <span class="font-1">Mira Rahman <i class="far fa-chevron-down"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="box-2">
+            <h2 class="font-2 findTitle">Find Your Best Meal Now, Search Your Favorite Meals</h2>
+            <div class="meal-details" id="meal-info">
+                <div class="meal-details-content">
+                    <!-- <div class="left-side">
+                        <div class="recipe-title">
+                            <h2>Amarican Pizza</h2>
+                        </div>
+                        <div class="recipe-category"><span class="recipe-headline">Category:</span>SeaFood | <span
+                                class="recipe-headline">Area:</span>Japanese</div>
+                        <div class="recipe-img">
+                            <img src="./static/images/meal/food1.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="rateing1 rcp-margin">
+                            <div class="recipe-rating1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                3.5
+                                <div class="whatfor">
+                                    Dining Reviews
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rateing2 rcp-margin">
+                            <div class="recipe-rating2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                4.5
+                                <div class="whatfor">
+                                    Delivery Reviews
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-ingredients">
+                            <h4>Ingredients</h4>
+                            <p><span><i class="far fa-check"></i>Ata Moyda</span></p>
+                            <p><span><i class="far fa-check"></i>Kicu Ekta</span></p>
+                            <p><span><i class="far fa-check"></i></span></p>
+                            <p><span><i class="far fa-check"></i></span></p>
+                            <p><span><i class="far fa-check"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="recipe-instruct">
+                        <h4>Cooking Instructions</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium incidunt possimus
+                            commodi dolores tempore deleniti? Ea obcaecati officia laudantium quidem debitis
+                            consequuntur similique, rem consectetur, perferendis doloribus earum at tempore!</p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="meal">
+                <!-- <div class="meal-item" data-id="${meal.idMeal}">
+                    <div class="meal-img">
+                        <img src="./static/images/meal/food1.webp">
+                    </div>
+                    <div class="meal-Name">
+                        <h3>Pizza</h3>
+                        <a href="#meal-info" class="recipe-btn">See Recipe</a>
+                    </div>
+                    <div class="meal-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        4.5
+                    </div>
+                    <div class="meal-tag">Pizza</div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
