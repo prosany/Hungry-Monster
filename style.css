@@ -362,3 +362,19 @@ a {
     border-radius: 6px;
 
 }
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+footer p {
+    color: rgb(255, 255, 255);
+    background-color: rgba(235, 43, 65, 0.7);
+    font-size: 12px;
+    padding: 5px 5px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 6px 0 0 0;
+}
