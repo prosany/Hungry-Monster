@@ -526,6 +526,11 @@ footer p {
         width: 60%;
         border-radius: 6px 0 0 6px;
     }
+    .search .form {
+        width: 100%;
+        float: right;
+        text-align: right;
+    }
     .box {
         width: 98%;
     }
