@@ -396,8 +396,8 @@ footer p {
 @media screen and (max-width: 1335px) {
     .search {
         top: 50%;
-        left: 38%;
-        transform: translate(-38%, -50%);
+        left: 36%;
+        transform: translate(-36%, -50%);
     }
 }
 @media screen and (max-width: 1295px){

@@ -57,7 +57,7 @@ function getMealRecipe(e){
     e.preventDefault();
     if(e.target.classList.contains('recipe-btn')){
         let mealItem = e.target.parentElement.parentElement;
-        console.log('This is', mealItem);
+        // console.log('This is', mealItem);
         fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}`)
         .then(response => response.json())
         .then(data => mealRecipeModal(data.meals));
@@ -66,7 +66,7 @@ function getMealRecipe(e){
 
 // create a modal
 function mealRecipeModal(meal){
-    console.log(meal);
+    // console.log(meal);
     meal = meal[0];
     let html = `
     <div class="left-side">
