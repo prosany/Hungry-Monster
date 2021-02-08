@@ -534,4 +534,28 @@ footer p {
     .box {
         width: 98%;
     }
+    .recipe-img img {
+        height: 280px;
+    }
+    .recipe-title h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .rateing1 {
+        width: 100%;
+    }
+    .rateing2 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .rcp-margin {
+        margin: 5px 0;
+    }
+    .recipe-instruct {
+        margin: 5px 0;
+    }
+    .recipe-instruct h4,
+.recipe-ingredients h4 {
+    font-size: 16px;
+}
 }

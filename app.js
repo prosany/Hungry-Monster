@@ -71,7 +71,7 @@ function mealRecipeModal(meal){
     let html = `
     <div class="left-side">
     <div class="recipe-title"><h2>${meal.strMeal}</h2></div>
-    <div class="recipe-category"><span class="recipe-headline">Category:</span>${meal.strCategory} | <span class="recipe-headline">Area:</span>${meal.strArea}</div>
+    <!--<div class="recipe-category"><span class="recipe-headline">Category:</span>${meal.strCategory} | <span class="recipe-headline">Area:</span>${meal.strArea}</div> -->
     <div class="recipe-img">
         <img src="${meal.strMealThumb}" alt="">
     </div>
